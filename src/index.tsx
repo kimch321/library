@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import AnimatedLoginForm from "./components/AnimatedLoginForm";
+import AnimatedLoginForm from "./components/AnimatedLoginForm/AnimatedLoginForm";
+import ResponsiveNavBar from "./components/ResponsiceNavBar/ResponsiveNavBar";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <AnimatedLoginForm />
+    <ResponsiveNavBar />
   </React.StrictMode>
 );
 
