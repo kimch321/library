@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import AnimatedLoginForm from "./components/AnimatedLoginForm/AnimatedLoginForm";
 import ResponsiveNavBar from "./components/ResponsiceNavBar/ResponsiveNavBar";
+import ResponsiveAdminDashboard from "./ResponsiveAdminDashboard";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <ResponsiveNavBar />
+    <ResponsiveAdminDashboard />
   </React.StrictMode>
 );
 
