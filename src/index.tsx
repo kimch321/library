@@ -4,13 +4,14 @@ import reportWebVitals from './reportWebVitals';
 import AnimatedLoginForm from "./components/AnimatedLoginForm/AnimatedLoginForm";
 import ResponsiveNavBar from "./components/ResponsiceNavBar/ResponsiveNavBar";
 import ResponsiveAdminDashboard from "./ResponsiveAdminDashboard";
+import SideNav from "./SideNav";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <ResponsiveAdminDashboard />
+    <SideNav />
   </React.StrictMode>
 );
 
